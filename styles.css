@@ -1,0 +1,72 @@
+.home img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    }
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#links img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+p{ 
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#skillsimg img{
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.certifications{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
