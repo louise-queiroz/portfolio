@@ -10,12 +10,15 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #382B47;
+    color: white;
 }
 
 #links img{
     width: 50px;
     height: 50px;
     padding: 10px;
+    filter: grayscale(100%) brightness(0) invert(1);
 }
 
 .aboutme {
@@ -24,6 +27,8 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #9D88B2;
+    color: white;
 }
 
 p{ 
@@ -38,10 +43,12 @@ p{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #382B47;
+    color: white;
 }
 
 #skillsimg img{
-    width: 150px;
+    width: 100px;
     height: 100px;
     padding: 10px;
 }
@@ -52,6 +59,8 @@ p{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #9D88B2;
+    color: white;
 }
 
 
@@ -61,6 +70,8 @@ p{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #382B47;
+    color: white;
 }
 
 .projects{
@@ -69,4 +80,7 @@ p{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #9D88B2;
+    color: white;
 }
+
