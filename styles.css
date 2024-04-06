@@ -11,6 +11,7 @@
       .navbar-brand {
         color: white !important; /* Define a cor do texto como branco */
       }
+
 .home {
     display: flex;
     flex-direction: column;
@@ -83,20 +84,38 @@ p{
 .education{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
     background-color: #9D88B2;
     color: white;
 }
 
+.education h1,
+.education h2 {
+  align-items: center;
+  text-align: center;
+}
+
+.education ul{
+  width: 30%;
+  margin: 0 auto;
+}
+
+.education ul ul {
+  margin: 0;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .education ul{
+    width: 65%;
+  }
+}
+
 
 .certifications {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+    align-items: baseline;
     justify-content: center;
-    text-align: center;
     background-color: #382B47;
     color: white;
     padding: 20px;
@@ -104,6 +123,7 @@ p{
   
   .certifications h1 {
     margin-bottom: 20px;
+    text-align: center;
   }
   
   .cursos-container {
@@ -113,23 +133,33 @@ p{
   }
   
   .cursos {
+    display: inline-block;
     width: 300px;
+    height: 450px;
     margin: 10px;
     border-radius: 6px;
     background-color: #1e1b22;
     overflow: hidden;
-    flex: 1; /* Para cada curso ocupar a mesma largura */
+    flex: 1;
+    vertical-align: top;
+    cursor: pointer; /* Altera o cursor para indicar que o curso é clicável */
+    transition: height 0.5s; /* Adiciona uma transição suave de altura */
   }
-  
+
   .cursos img {
     width: 100%;
     border-radius: 6px 6px 0 0;
   }
   
-  .cursos h4,
-  .cursos p {
-    margin: 10px;
+  .cursos h4 {
+    margin: 12px;
   }
+  .cursos p{
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: justify;
+  }
+
 .projects{
     display: flex;
     flex-direction: column;
@@ -139,4 +169,11 @@ p{
     background-color: #9D88B2;
     color: white;
 }
+
+.expandido {
+  height: auto !important; /* Garante que o conteúdo seja totalmente visível */
+}
+
+
+
 
