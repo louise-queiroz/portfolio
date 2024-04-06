@@ -4,6 +4,13 @@
     border-radius: 50%;
     }
 
+    .navbar-nav .nav-link {
+        color: white !important; /* Define a cor do texto como branco */
+      }
+
+      .navbar-brand {
+        color: white !important; /* Define a cor do texto como branco */
+      }
 .home {
     display: flex;
     flex-direction: column;
@@ -13,6 +20,26 @@
     background-color: #382B47;
     color: white;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+  }
+  
+  .grid-item {
+    text-align: center;
+  }
+  
+  .grid-item img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  
+  .grid-item figcaption {
+    color: white;
+  }
 
 #links img{
     width: 50px;
@@ -64,16 +91,45 @@ p{
 }
 
 
-.certifications{
+.certifications {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    text-align: center;
     background-color: #382B47;
     color: white;
-}
-
+    padding: 20px;
+  }
+  
+  .certifications h1 {
+    margin-bottom: 20px;
+  }
+  
+  .cursos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cursos {
+    width: 300px;
+    margin: 10px;
+    border-radius: 6px;
+    background-color: #1e1b22;
+    overflow: hidden;
+    flex: 1; /* Para cada curso ocupar a mesma largura */
+  }
+  
+  .cursos img {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+  }
+  
+  .cursos h4,
+  .cursos p {
+    margin: 10px;
+  }
 .projects{
     display: flex;
     flex-direction: column;
